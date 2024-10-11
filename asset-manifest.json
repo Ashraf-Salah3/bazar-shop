@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bazar-shop/static/css/main.166ec1a1.css",
+    "main.js": "/bazar-shop/static/js/main.3596745d.js",
+    "static/media/register.png": "/bazar-shop/static/media/register.c63eced99fcb38972a6c.png",
+    "static/media/forgot.png": "/bazar-shop/static/media/forgot.cfba148d722f088aeddb.png",
+    "static/media/login.png": "/bazar-shop/static/media/login.78ccab5e2cbeadd1d2f2.png",
+    "static/media/logo-no-background.png": "/bazar-shop/static/media/logo-no-background.6b8c24e08d5c020aa33c.png",
+    "static/media/paymentLogo.jpg": "/bazar-shop/static/media/paymentLogo.0c86e84c7eeaf914b839.jpg",
+    "static/media/loader.gif": "/bazar-shop/static/media/loader.9d11df4bdd0bb34de773.gif",
+    "static/media/cart-icon.png": "/bazar-shop/static/media/cart-icon.0e028a27fad0f562cabd.png",
+    "static/media/cart.jpg": "/bazar-shop/static/media/cart.0d037baf131054559d1b.jpg",
+    "index.html": "/bazar-shop/index.html",
+    "main.166ec1a1.css.map": "/bazar-shop/static/css/main.166ec1a1.css.map",
+    "main.3596745d.js.map": "/bazar-shop/static/js/main.3596745d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.166ec1a1.css",
+    "static/js/main.3596745d.js"
+  ]
+}
