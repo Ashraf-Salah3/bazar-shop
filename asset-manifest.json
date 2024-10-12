@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bazar-shop/static/css/main.6b8f40b5.css",
+    "main.css": "/bazar-shop/static/css/main.54c01f7c.css",
     "main.js": "/bazar-shop/static/js/main.b3e94f64.js",
     "static/media/register.png": "/bazar-shop/static/media/register.c63eced99fcb38972a6c.png",
     "static/media/forgot.png": "/bazar-shop/static/media/forgot.cfba148d722f088aeddb.png",
@@ -11,11 +11,11 @@
     "static/media/cart-icon.png": "/bazar-shop/static/media/cart-icon.0e028a27fad0f562cabd.png",
     "static/media/cart.jpg": "/bazar-shop/static/media/cart.0d037baf131054559d1b.jpg",
     "index.html": "/bazar-shop/index.html",
-    "main.6b8f40b5.css.map": "/bazar-shop/static/css/main.6b8f40b5.css.map",
+    "main.54c01f7c.css.map": "/bazar-shop/static/css/main.54c01f7c.css.map",
     "main.b3e94f64.js.map": "/bazar-shop/static/js/main.b3e94f64.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b8f40b5.css",
+    "static/css/main.54c01f7c.css",
     "static/js/main.b3e94f64.js"
   ]
 }
