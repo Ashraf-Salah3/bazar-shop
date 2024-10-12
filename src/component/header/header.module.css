@@ -1,0 +1,150 @@
+.fixed{
+    border-bottom: 1px solid black;
+    transition: all 0.5s;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    background-color: var(--dark-blue);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 3rem;
+    width: 100%;
+    height: 7rem;
+    margin: 0 auto;
+    position: relative;
+
+}
+.logo{
+    width: 12rem;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+ .links ul{
+    display: flex;
+    gap: 2rem ;
+    align-items: center;
+}
+ .links li  a{
+    font-weight: 600;
+    transition: all .2s;
+    color: white;
+}
+.links li a:hover {
+    color: var(--color-danger);
+}
+.logo-mobile{
+    display: none;
+}
+.cart{
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+.cart span{
+    position: absolute;
+    top: 13px;
+    right: 1.3rem;
+    font-weight: 500;
+    font-size: 15px;
+}
+.user-logo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+.links .active {
+    position: relative;
+    color: var(--color-danger);
+  }
+  
+  .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+@media screen and (max-width:800px) {
+    nav{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: var(--dark-blue);
+        padding: 1rem;
+        transform: translateX(-200%);
+        transition: all .3s;
+        z-index: 9999;
+    }
+    .nav-wrapper{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: translateX();
+        transition: all 0.3s;
+    }
+    .show-nav-wrapper {
+        transform: translateX(100%);
+    }
+    .links ul{
+        display: block;
+    }
+    .logo-mobile{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+    }
+    .links li {
+        
+        border-bottom: 1px solid #333;
+    }
+    .links a {
+        display: block;
+        margin: 0;
+        padding: 1rem 0;
+        border-bottom: 1px solid #333;
+       
+      }
+    .links{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .menu-icon {
+        display: flex;
+        color: white;
+    }
+    .show-nav {
+        transform: translateX(0);
+        z-index: 9999
+      }
+      .hide-nav {
+        transform: translateX(-200%);
+      }
+      .cart span{
+        position: absolute;
+        left: 17px;
+        font-weight: 600;
+      }
+    .user-logo{
+        display: none;
+    }
+}  
+

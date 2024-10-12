@@ -1,0 +1,148 @@
+.productDetails{
+    display: flex;
+    gap: 10em;
+    padding: 10rem 8rem 3rem;
+}
+.productDetailsImg{
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.productDetailsImg img{
+    height: 40rem;
+    cursor: pointer;
+    width: 30rem;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.productTitle{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.priceContainer{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.oldPrice{
+    color: gray;
+    text-decoration: line-through;
+}
+.newPrice{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.reviewContainer{
+    display: flex;
+    gap: 1rem;
+}
+.reviewText{
+    color: gray;
+    font-size: 1rem;
+}
+.description{
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.quantityContainer{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.quantity{
+    display: flex;
+    gap: 2rem 
+}
+.quantity p{
+    color: gray;
+    font-size: 1.2rem;
+}
+.quantityButtons{
+    display: flex;
+    gap: 2rem;
+    color: gray;
+}
+.quantityButtons button{
+    border: none;
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+    padding: 0px 6px;
+}
+.quantityButtons button:hover{
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+}
+.addToCartButton{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.category{
+    color: gray;
+}
+@media screen and (max-width: 900px) {
+    .productDetails {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .productDetailsImg {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+      .productDetailsImg img {
+        width: 100%;
+        height: auto;
+      }
+      .productTitle{
+        font-size: 1.6rem;
+      }
+      .titleContant {
+        text-align: center;
+      }
+      .priceContainer {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .reviewContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .quantityContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .quantityButtons {
+        display: flex;
+        justify-content: center;
+      }
+    
+      .addToCartButton {
+        width: 100%;
+        margin-top: 10px;
+      }
+    
+      .category {
+        text-align: center;
+      }
+}
